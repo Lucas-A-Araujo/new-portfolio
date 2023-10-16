@@ -11,9 +11,11 @@ export function PresentationSection() {
     <section className={styles.intro} id="presentation">
             <div className={styles.info}>
                 <h1>
-                    Desenvolvedor Front-end
+                    Olá, sou o Lucas Alves<br/>
+                    <span className={styles.fullWidthHeader}>Desenvolvedor Front-end e Mobile</span><br/>
+                    Pronto para tirar ideias do papel
                 </h1>
-                <div>
+                <div className={styles.links}>
                     <Link href="https://www.linkedin.com/in/lucas-alves-476b281aa" target="_blank">
                         <Image alt="Linkdin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
                             width="40" height="40" />

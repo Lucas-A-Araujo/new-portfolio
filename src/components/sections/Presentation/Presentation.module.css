@@ -1,18 +1,22 @@
 .intro {
     display: flex;
     height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .info {
     display: flex;
-    flex: 1;
     padding: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 2rem;
+}
+.links {
+    padding-top: 1rem;
 }
 
-.image-container {
-    flex: 1;
-}
+.fullWidthHeader {
+    font-size: 56px;
+    color: var(--blue);
+  }
