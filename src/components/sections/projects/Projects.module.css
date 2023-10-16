@@ -1,4 +1,90 @@
 .projects {
+    background-color: var(--second-background);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
     height: 100vh;
-}
+  }
+
+.filtro button {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .filtro button.active {
+    background-color: var(--blue);
+    border: none;
+  }
+  
+  .filtro {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .listaProjetos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .projeto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .projeto:hover {
+    transform: scale(1.05);
+  }
+  
+  .projeto h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .projeto p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+
+  .buttonContainer{
+    display: flex;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .siteLinkButton {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .projectHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .comingSoonText {
+    font-style: italic;
+  }
