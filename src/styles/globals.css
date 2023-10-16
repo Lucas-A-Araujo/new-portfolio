@@ -1,6 +1,16 @@
 :root{
-  --background: #1A1A1A;
+  --background: #131313;
+  --second-background: #191919;
   --blue: #007ACC;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 * {
